@@ -64,7 +64,12 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.55f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/PlayerHealth.cs" />
+    <Compile Include="Assets/Scripts/enemy/Path.cs" />
+    <Compile Include="Assets/Scripts/enemy/Enemy.cs" />
+    <Compile Include="Assets/Scripts/HealBar/PlayerHealth.cs" />
+    <Compile Include="Assets/Scripts/enemy/State/PatrolState.cs" />
+    <Compile Include="Assets/Scripts/enemy/StateMachine.cs" />
+    <Compile Include="Assets/Scripts/enemy/State/BaseState.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

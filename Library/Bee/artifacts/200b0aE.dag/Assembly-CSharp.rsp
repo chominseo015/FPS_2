@@ -354,7 +354,12 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.55f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.55f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Scripts/PlayerHealth.cs"
+"Assets/Scripts/enemy/Enemy.cs"
+"Assets/Scripts/enemy/Path.cs"
+"Assets/Scripts/enemy/State/BaseState.cs"
+"Assets/Scripts/enemy/State/PatrolState.cs"
+"Assets/Scripts/enemy/StateMachine.cs"
+"Assets/Scripts/HealBar/PlayerHealth.cs"
 -langversion:9.0
 /deterministic
 /optimize+
